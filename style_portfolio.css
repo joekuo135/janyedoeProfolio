@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    width: 970px;
+}
+.header{
+    background-color: #d7d7d7;
+    height: 60px;
+}
+.header h1{
+    color: black;
+    padding: 0 0 20px 15px;
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 15px;
+}
+.header h2{
+    margin-left:350px;
+    color: black;
+    padding: 0 15px 20px 0;
+    display: inline-block;
+}
+.main-content{
+    width: 100%;
+    height: 980px;
+    background: radial-gradient(#6f5964,#231216);
+}
+.aboutContent{
+    width: 100%;
+    margin-bottom: 15px;
+}
+.topPhoto{
+    width: 390px;
+    height: 262px;
+    border: 4px solid lightgrey;  
+    display: inline-block;
+    margin: 20px 0 0 22px;
+
+}
+.aboutcopyBox{
+    width: 503px;
+    height: 270px;
+    background: linear-gradient(-90deg, #daccd9, #fefefe);
+    padding: 0 0 0 0;
+    margin: 20px 0 0 0;
+    color: black;
+    margin-left: 20px;
+    display: inline-block;
+    vertical-align: top;
+    
+}
+.aboutcopyBox p{
+    /*padding: 10px;*/
+    margin: 15px;
+}
+#about{
+    background: linear-gradient(#adadb2, #898794, #adadb2);
+    width: 100%;
+    height: 40px;
+    padding-left: 15px;
+    margin: 0;
+    color:white;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+#show-case{
+    width: 100%;
+    display: inline-block;
+}
+
+.col1, .col2, .col3{
+    width: 30%;
+    height: 640px;
+    background: linear-gradient(-90deg, #daccd9, #fefefe);
+    margin-left: 22px;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+#lamode{
+    background: -webkit-linear-gradient(#adadb2, #898794, #adadb2);
+    background: -moz-linear-gradient(#adadb2, #898794, #adadb2);
+    background: -o-linear-gradient(#adadb2, #898794, #adadb2);
+    background: linear-gradient(#adadb2, #898794, #adadb2);
+    height: 40px;
+    width: 100%;
+    margin: 0;
+    color:white;
+    padding-top: 10px;
+    padding-left: 15px;
+    box-sizing: border-box;
+
+}
+.technologies{
+    background: -webkit-linear-gradient(#adadb2, #898794, #adadb2);
+    background: -moz-linear-gradient(#adadb2, #898794, #adadb2);
+    background: -o-linear-gradient(#adadb2, #898794, #adadb2);
+    background: linear-gradient(#adadb2, #898794, #adadb2);
+    height: 40px;
+    width: 100%;
+    margin: 0;
+    color:white;
+    padding-top: 10px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+
+.lamodePhoto{
+    width: 99%;
+    border: 1px solid lightgrey;  
+    display: inline-block;
+}
+.col1 p, .col2 p, .col3 p{
+    margin: 15px;
+    height: 160px;
+}
+#tecicons {
+    width: 100%;
+    
+    margin: 5px;
+}
+
+#tecicons *{
+    width: 15%;
+    height: 15%;
+    margin: 5px;
+}
+
+#footer{
+    background-color: #d7d7d7;
+    height: 60px;
+}
+
+.button {
+    color: white;
+    width: auto;
+    background: #556B2F;
+    border-radius: 5px;
+    border: 1px solid black;
+    text-align: center;
+    display: block;
+    cursor: pointer;
+    font-size: 13px;
+    margin: 0 auto;
+  }
+#footer{
+    text-align: center;
+    display: inline-block;
+}
+#jmail{
+    margin: 5px;
+    text-decoration: none;
+}
+#socialicons{
+    text-align: center;
+    display: inline;
+    margin: 10px;
+
+}
+.social1{
+    width: 2%;
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+.soname{
+    display: inline-block;
+    width: 60px;
+    height: 20px;
+    /*background-color: red;*/
+    vertical-align: middle;
+    
+}
